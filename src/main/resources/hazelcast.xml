@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<hazelcast xsi:schemaLocation=
+                   "http://www.hazelcast.com/schema/config hazelcast-config-3.7.xsd"
+           xmlns="http://www.hazelcast.com/schema/config"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <group>
+        <name>ProductCluster</name>
+        <password>productpassword</password>
+    </group>
+    <network>
+        <join>
+            <multicast enabled="true"/>
+        </join>
+    </network>
+</hazelcast>
