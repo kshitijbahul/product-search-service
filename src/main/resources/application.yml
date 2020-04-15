@@ -20,6 +20,11 @@ spring:
       cluster-nodes: 'localhost:9300'
   jpa:
     show-sql: 'true'
+rabbit:
+  product:
+    topic: "product-queue"
+    topicExchange: "product-update"
+    routingKey: "product.update.#"
 
 #logging:
 #  level:

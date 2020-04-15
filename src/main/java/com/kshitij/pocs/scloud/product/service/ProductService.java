@@ -30,4 +30,5 @@ public class ProductService {
     public List<Product> getProductByCategory(Long categoryId){
         return this.productRepository.getProductByCategory(categoryId);
     }
+
 }

@@ -10,13 +10,13 @@ import org.springframework.web.bind.annotation.*;
 
 @RestController
 @Slf4j
-public class ProductController {
+public class ProductSearchController {
 
 
     private ProductService productService;
 
     @Autowired
-    public ProductController(ProductService productService){
+    public ProductSearchController(ProductService productService){
         this.productService=productService;
     }
 
